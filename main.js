@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
         controls.maxDistance = 40;
     } else if (isTablet) {
         camera.position.set(0, 1.8, 3);
-        controls.minDistance = 15;
+        controls.minDistance = 12;
         controls.maxDistance = 10;
     } else {
         camera.position.set(0, 2, 5); // Posição padrão para desktop
