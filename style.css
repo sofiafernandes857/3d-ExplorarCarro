@@ -84,6 +84,7 @@ canvas {
     .controls {
         flex-direction: row; 
         justify-content: space-around; 
+        margin-bottom: 70px;
         
     }
 
@@ -116,13 +117,13 @@ canvas {
     .controls {
         flex-direction: row; 
         justify-content: space-around; 
+        margin-bottom: 95px
     }
 
     .control-button {
         padding: 12px; 
         font-size: 20px; 
-        flex: 1 1 60px;
-        margin-bottom: 95px ; 
+        flex: 1 1 60px; 
     }
 
     #showColorPickerButton {
