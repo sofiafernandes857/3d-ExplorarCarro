@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro 3D</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="container"></div>
+    <div class="controls">
+        <button id="rotateLeftButton" class="control-button"><i class="bi bi-caret-left-fill"></i></button>
+        <button id="rotateRightButton"class="control-button"><i class="bi bi-caret-right-fill"></i></button>
+        <button id="rotateUpButton"   class="control-button"><i class="bi bi-caret-up-fill"></i></button>
+        <button id="rotateDownButton" class="control-button"><i class="bi bi-caret-down-fill"></i></button>
+        <button id="clearColorButton" class="control-button">Limpar Cor</button>
+        <button id="changeModelButton"class="control-button">Mudar Modelo</button>
+    </div>
+    
+    <button id="showColorPickerButton" class="control-button">Mudar cor</button>
+    <div id="colorSpectrum" style="display:none; position:absolute;"></div>
+
+    
+    <div id="loading">Carregando modelo...</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
