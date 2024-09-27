@@ -39,7 +39,7 @@ canvas {
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
-    flex: 1 1 45px; 
+    flex: 1 1 100px; /* Ajustado para 100px */
 }
 
 .control-button i {
@@ -48,8 +48,8 @@ canvas {
 
 /* Botão de cor */
 #showColorPickerButton {
-    width: 470px; 
-    padding: 8px; 
+    width: 100%;
+    padding: 10px;
     margin: 10px 0;
     background-color: #a43943; 
     border: none; 
@@ -58,7 +58,7 @@ canvas {
 }
 
 #colorSpectrum {
-    width: 300px; 
+    width: 100%;
     height: 50px; 
     background: linear-gradient(to right, 
         #FF0000, #FF7F00, #FFFF00, #7FFF00, #00FF00, 
@@ -75,7 +75,7 @@ canvas {
     margin-top: 20px;
 }
 
-/* Responsividade para mobile*/
+/* Responsividade para mobile */
 @media (max-width: 768px) {
     .controls {
         flex-direction: row; 
@@ -86,19 +86,19 @@ canvas {
     .control-button {
         padding: 6px;
         font-size: 14px;
-        flex: 1 1 20px; 
+        flex: 1 1 80px; /* Ajustado para 80px */
         margin: 2px; /* Reduzir a margem para economizar espaço */
     }
 
     #colorSpectrum {
-        width: 200px; 
+        width: 100%; 
         height: 40px; 
         border: 1px solid #a43943; 
     }
 
     #showColorPickerButton {
-        width: 250px;
-        padding: 6px; 
+        width: 100%;
+        padding: 8px; 
         font-size: 16px;
         margin: 5px 0;
     }
