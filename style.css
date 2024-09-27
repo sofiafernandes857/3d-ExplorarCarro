@@ -1,4 +1,4 @@
-body {   
+body {  
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,8 +13,8 @@ body {
 
 /* 3d */
 canvas {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -78,13 +78,10 @@ canvas {
 
 /* Responsividade para mobile*/
 @media (max-width: 768px) {
-    /*body {
-        overflow: scroll;
-    }*/
     .controls {
         flex-direction: row; 
         justify-content: space-around; 
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     .control-button {
