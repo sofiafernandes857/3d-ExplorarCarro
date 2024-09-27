@@ -112,9 +112,7 @@ canvas {
 
 /* Responsividade para tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        overflow: scroll;
-    }
+    
     .controls {
         flex-direction: row; 
         justify-content: space-around; 
