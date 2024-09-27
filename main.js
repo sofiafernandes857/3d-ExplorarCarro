@@ -71,11 +71,11 @@ document.addEventListener("DOMContentLoaded", function() {
             if (isMobile) {
                 if (modelPath === models[1]) { 
                     carro.scale.set(0.1, 0.1, 0.1); // Ajustar a escala
-                    carro.position.set(-1, -0.5, 0); // Ajustar a posição do carro
+                    carro.position.set(-1, 0.5, 0); // Ajustar a posição do carro
                     carro.rotation.y = 0; // Virado para a esquerda
                 } else {
                     carro.scale.set(0.1, 0.1, 0.1); // Ajustar a escala
-                    carro.position.set(0, -1.5, 0); // Ajustar a posição do carro
+                    carro.position.set(0, 1.5, 0); // Ajustar a posição do carro
                     carro.rotation.y = 0; // Virado de lado
                 }
             } else if (isTablet) {
