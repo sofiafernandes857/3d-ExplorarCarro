@@ -78,9 +78,6 @@ canvas {
 
 /* Responsividade para mobile*/
 @media (max-width: 768px) {
-    body {
-        overflow: scroll;
-    }
     .controls {
         flex-direction: row; 
         justify-content: space-around; 
