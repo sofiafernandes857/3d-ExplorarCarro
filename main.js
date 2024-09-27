@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             } else if (isTablet) {
                 if (modelPath === models[1]) { 
-                    carro.scale.set(0.1, 0.1, 0.1); // Ajustar a escala
-                    carro.position.set(-0.5, -0.5, 0); // Ajustar a posição do carro
+                    carro.scale.set(0.09, 0.09, 0.09); // Ajustar a escala
+                    carro.position.set(0, -0.5, 0); // Ajustar a posição do carro
                     carro.rotation.y = Math.PI + 1.7; // Virado para a esquerda
                 } else {
                     carro.scale.set(0.1, 0.1, 0.1); // Ajustar a escala
@@ -156,16 +156,9 @@ document.addEventListener("DOMContentLoaded", function() {
         controls.minDistance = 15;
         controls.maxDistance = 40;
     } else if (isTablet) {
-        if (modelPath === models[1]) {
-            camera.position.set(0, 1.8, 3);
-            controls.minDistance = 10;
-            controls.maxDistance = 10;
-        } else {
-            camera.position.set(0, 1.8, 3);
-            controls.minDistance = 15;
-            controls.maxDistance = 10;
-        }
-        
+        camera.position.set(0, 1.8, 3);
+        controls.minDistance = 12;
+        controls.maxDistance = 10;
     } else {
         camera.position.set(0, 2, 5); // Posição padrão para desktop
         controls.minDistance = 9; // Distância mínima
