@@ -79,7 +79,7 @@ canvas {
 /* Responsividade para mobile*/
 @media (max-width: 768px) {
     body {
-        overflow: visible;
+        overflow: scroll;
     }
     .controls {
         flex-direction: row; 
