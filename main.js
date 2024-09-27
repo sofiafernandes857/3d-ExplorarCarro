@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const isTablet = window.innerWidth > 768 && window.innerWidth <= 1024; // Define se o dispositivo é um tablet
 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight * 0.6); // Ajustar altura
+    renderer.setSize(window.innerWidth, window.innerHeight * 0.8); // Ajustar altura
     container.appendChild(renderer.domElement);
 
     // Adicionar controles de órbita
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Ajustar tamanho
     window.addEventListener('resize', () => {
         const width = window.innerWidth;
-        const height = window.innerHeight * 0.6; // Ajustar altura
+        const height = window.innerHeight * 0.8; // Ajustar altura
         renderer.setSize(width, height);
         camera.aspect = width / height;
         camera.updateProjectionMatrix();
