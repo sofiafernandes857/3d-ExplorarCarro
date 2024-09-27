@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
+    
     <div id="container"></div>
-    <button id="showColorPickerButton" class="control-button">Mudar cor</button>
-    <div id="colorSpectrum" style="display:none; position:absolute;"></div>
     <div class="controls">
         <button id="rotateLeftButton" class="control-button"><i class="bi bi-caret-left-fill"></i></button>
         <button id="rotateRightButton"class="control-button"><i class="bi bi-caret-right-fill"></i></button>
@@ -19,7 +18,10 @@
         <button id="clearColorButton" class="control-button">Limpar Cor</button>
         <button id="changeModelButton"class="control-button">Mudar Modelo</button>
     </div>
+    <button id="showColorPickerButton" class="control-button">Mudar cor</button>
+    <div id="colorSpectrum" style="display:none; position:absolute;"></div>
 
+    
     <div id="loading">Carregando modelo...</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
