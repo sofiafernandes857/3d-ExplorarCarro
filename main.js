@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const gltfLoader = new THREE.GLTFLoader();
     let carro;
     let modelIndex = 0;
-    const models = ['models/carro_cheio.glb', 'models/carro_contorno.glb'];
+    const models = ['models/carroFE.glb', 'models/carroFEcon.glb'];
 
     function loadModel(modelPath) {
         console.log(`Tentando carregar o modelo: ${modelPath}`);
